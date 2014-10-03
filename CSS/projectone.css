@@ -1,0 +1,195 @@
+html {
+	width: 100%;
+	background: url("../images/paper-background.png");
+}
+			
+html body {
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+}
+
+.form-clean, input {
+	padding: 0;
+	margin: 0;
+}
+
+.logo-container {
+	margin: 20px 0 0 51px;
+	height: 100px;
+	width: 100px;
+	outline: solid 1px;
+}
+
+.list clean, a {
+	text-decoration: none;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	color: #000;	
+}
+
+
+.nav-list {
+	margin: 0;
+	padding: 0;
+	width: 205px;
+	text-align: center;
+	float: left;
+}
+
+.nav-list li {
+	margin-top: 50px;
+	width: 205px;
+	height: 50px;
+	vertical-align: middle;
+	outline: solid 1px;
+	float: left;
+	font-size: 34px;
+	padding-top: 10px;
+}
+
+.nav-list li:hover {
+	background: #000;
+	color: #fff;
+}
+
+.footer-text  {
+	width: 30%;
+	display: inline-block;
+	margin-left: 23px;
+	height: 30px;
+	margin-top: 0;
+}
+.nav-button-container {
+	width: 205px;
+	height: 400px;
+	margin: 0;
+	padding: 0;
+}
+
+.submit-button, .search-box {
+	float: right;
+	margin-top: 35px;
+}
+
+.submit-button {
+	margin-right: 20px;
+}
+
+.title-container {
+	height: 75px;
+	width: 500px;
+	display: inline-block;
+	margin: 10px 0 0 10px;
+	outline: solid 1px;
+}
+
+.footer-bar {
+	height: 5px;
+	width: 780px;
+	background: #666fff;
+	margin-left: 1%;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+
+
+#main-body-container {
+	margin: 0 auto;
+	padding: 0;
+	width: 1000px;
+	height: 652px;
+	outline: solid 1px;
+}
+			
+#header-container {
+	margin: 0;
+	padding: 0;
+	height: 100px;
+	width:  794px;
+	float: right;
+	background: #fff;
+}
+
+#nav-container {
+	padding: 0;
+	height: 652px;
+	width: 205px;
+	float: left;
+	outline: solid 1px;
+	display: inline-block;
+	background: rgb(255,128,0);
+}
+
+#content-container {
+	background: rgba(255,255,255,0.7);
+	margin: 0;
+	padding: 0;
+	height: 502px;
+	width: 794px;
+	float: right;
+	outline: solid 1px;
+}
+
+
+#image-container {
+	width: 700px;
+	height: 300px;
+	outline: solid 1px;
+	float: right;
+	margin: 10px 47px 0px 0px;
+	position: relative;
+}
+
+.img {
+	width: 500px;
+	height: 300px;
+	outline: solid 1px;
+	margin: 0 100px 0 100px;
+}
+
+#content-container form {
+	margin: 0px 0 0 300px;
+}
+
+#content-container form input, textarea {
+	margin: 25px 0 0 0;
+	width: 300px;
+	height: 30px;
+}
+
+#content-container form textarea {
+	height: 75px;
+}
+
+#content-container form .submit {
+	float: left;
+	width: 100px;
+	position: absolute;
+	bottom: 25px;
+	left: 90px;
+}
+
+#text-container {
+	width: 700px;
+	height: 170px;
+	outline: solid 1px;
+	float: right;
+	margin: 10px 47px 0px 0px;
+}
+
+#text-container p, h2 {
+	margin: 5px;
+}
+
+#footer-container {
+	margin: 0;
+	padding: 0;
+	height: 50px;
+	width: 794px;
+	float: right;
+	outline: solid 1px;
+	background: rgba(255,255,255,0.2)
+}

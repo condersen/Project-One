@@ -1,0 +1,91 @@
+html {
+	width: 100%;
+	background: url("../images/paper-background.png");
+}
+			
+html body {
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+}
+
+.form-clean, input {
+	padding: 0;
+	margin: 0;
+}
+
+.logo-container {
+	margin: 20px 0 0 51px;
+	height: 100px;
+	width: 100px;
+	outline: solid 1px;
+}
+
+.list clean, a {
+	text-decoration: none;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	color: #000;	
+}
+
+#admin-content-container {
+	background: rgba(255,255,255,0.7);
+	margin: 0 auto;
+	padding: 0 0 10px 0;
+	height: 502px;
+	width: 794px;
+	outline: solid 1px;
+	overflow: inherit;
+}
+
+#page-container ul {
+	margin: 0 0 0 45%;
+	padding: 5% 0 0 0;
+	top: 0;
+	left: 0;
+}
+
+#admin-content-container ul, a {
+	text-decoration: none;
+	list-style-type: none;	
+}
+
+#page-container ul li {
+	margin-top: 15px;
+}
+
+#page-container {
+	outline: solid 1px;
+	height: 50%;
+	width: 50%;
+	margin: 50px 200px 0px 200px;
+	overflow: scroll;
+}
+
+form input {
+	width: 200px;
+	margin: 0 auto;
+}
+
+textarea {
+	width: 500px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.update-button {
+	width: 100px;
+	margin: 0 auto;
+}
+
+form {
+	
+}
+
+#form-container {
+	margin: 0 auto;
+	width: 1000px;
+	height: 590px;
+	outline: solid 1px;
+}
